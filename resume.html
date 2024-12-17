@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mann Solanki's Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 80%;
+      max-width: 600px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007BFF;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .button-container {
+      margin: 20px 0;
+    }
+
+    button {
+      margin: 5px;
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .content-section {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mann Solanki</h1>
+    <p>Email: <a href="mailto:mannsolanki06@gmail.com">mannsolanki06@gmail.com</a> | Phone: +91-8160219871</p>
+    <p>
+      <a href="https://github.com/HarmonyHacker" target="_blank">Github</a> | 
+      <a href="https://www.linkedin.com/in/mannsolanki/" target="_blank">LinkedIn</a>
+    </p>
+
+    <div class="button-container">
+      <button onclick="showSection('education')">Education</button>
+      <button onclick="showSection('skills')">Skills</button>
+      <button onclick="showSection('projects')">Projects</button>
+      <button onclick="showSection('achievements')">Achievements</button>
+    </div>
+
+    <div id="content" class="content-section">
+      <p>Select a section to view details.</p>
+    </div>
+  </div>
+
+  <script src="resume.js">
+    
+  </script>
+</body>
+</html>
