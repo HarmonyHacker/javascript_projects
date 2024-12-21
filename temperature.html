@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature & Mass Converter</title>
+    <link rel="stylesheet" href="./temperature.css">
+</head>
+<body>
+    
+    <div class="converter">
+        
+        <h2>Temperature</h2>
+        <div>
+            <input type="number" id="tempValue" placeholder="Enter value">
+            <button onclick="convertToCelsius()">To Celsius</button>
+            <button onclick="convertToFahrenheit()">To Fahrenheit</button>
+        </div>
+        <div>
+            <span id="tempResult" class="result">0</span>
+            <span id="tempUnit">Unit</span>
+        </div>
+        <div class="formula" id="tempFormula"></div>
+
+        <h2>Mass</h2>
+        <div>
+            <input type="number" id="massValue" placeholder="Enter value">
+            <button onclick="convertToKilograms()">To Kilograms</button>
+            <button onclick="convertToPounds()">To Pounds</button>
+        </div>
+        <div>
+            <span id="massResult" class="result">0</span>
+            <span id="massUnit">Unit</span>
+        </div>
+        <div class="formula" id="massFormula"></div>
+    </div>
+
+
+    <script src="./temperature.js"></script>
+</body>
+</html>

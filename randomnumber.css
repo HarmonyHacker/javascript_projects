@@ -1,0 +1,36 @@
+body{
+   padding: 100px; 
+   margin: 50px; 
+   background-color: rgb(83, 76, 76);
+}
+.container {
+    text-align: end;
+    margin-top: 100px;
+    background: #333;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    
+  }
+  h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:rgb(208, 184, 0);
+  }
+  p{
+    color: aliceblue;
+  }
+ .guess{
+    padding: 10%;
+    color: #e48c00;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    
+ } 
